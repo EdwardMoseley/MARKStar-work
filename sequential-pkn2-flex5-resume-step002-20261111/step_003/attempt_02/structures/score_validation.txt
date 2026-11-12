@@ -1,0 +1,10 @@
+MARK* score validation failed:
+B3=ARG complex: effective epsilon 1 exceeds requested 0.68 or is non-finite
+B3=HIS: no estimated K* score
+B3=HIS complex: effective epsilon 1 exceeds requested 0.68 or is non-finite
+B3=PHE: no estimated K* score
+B3=PHE complex: effective epsilon nan exceeds requested 0.68 or is non-finite
+B3=TRP: no estimated K* score
+B3=TRP complex: effective epsilon nan exceeds requested 0.68 or is non-finite
+B3=TYR: no estimated K* score
+B3=TYR complex: effective epsilon nan exceeds requested 0.68 or is non-finite

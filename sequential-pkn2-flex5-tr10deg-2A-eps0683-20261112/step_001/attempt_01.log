@@ -1,0 +1,37 @@
+Input: /home/users/etm33/src/OSPREY3/MARKStar-work/PKN2_SAV1_forced_pilot_model_0.clean.pdb
+Mutation target: HIS B1; CA (10.926, -0.85, -19.018)
+Selected 1 of 5 requested neighbors within 4 Å:
+  GLU B2: 3.799 Å
+WARNING: fewer neighbors than requested are within the radius; using all available.
+WARNING: Using incubator modules: jdk.incubator.foreign
+OSPREY 3.3-dev, Python 3.11.15, Java 17.0.18, Linux-7.0.0-43-generic-x86_64-with-glibc2.43
+Using up to 4096 MiB heap memory: 128 MiB for garbage, 3968 MiB for storage
+read PDB file from file: /home/users/etm33/src/OSPREY3/MARKStar-work/PKN2_SAV1_forced_pilot_model_0.clean.pdb
+Calculating reference energies for 0 residue confs...
+Calculating energy matrix with 0 entries
+Calculating energy matrix with 0 entries
+Calculating reference energies for 198 residue confs...
+Traceback (most recent call last):
+  File "java.lang.Thread.java", line -1, in java.lang.Thread.run
+java.lang.java.lang.UnsupportedOperationException: java.lang.UnsupportedOperationException: ERROR: Mutation from HID to PRO not supported yet
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "java.lang.Thread.java", line -1, in java.lang.Thread.run
+Exception: Java Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/users/etm33/src/OSPREY3/MARKStar-work/markstar_scan.py", line 505, in <module>
+    main()
+  File "/home/users/etm33/src/OSPREY3/MARKStar-work/markstar_scan.py", line 495, in main
+    run_osprey(args, residues, target, neighbors, manifest)
+  File "/home/users/etm33/src/OSPREY3/MARKStar-work/markstar_scan.py", line 427, in run_osprey
+    eref = osprey.ReferenceEnergies(info.confSpace, ecalc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/users/etm33/miniconda3/envs/osprey-jdk17-cckstar-vtk93/lib/python3.11/site-packages/osprey/__init__.py", line 798, in ReferenceEnergies
+    return builder.build()
+           ^^^^^^^^^^^^^^^
+edu.duke.cs.osprey.parallelism.TaskExecutor.edu.duke.cs.osprey.parallelism.TaskExecutor.TaskException: edu.duke.cs.osprey.parallelism.TaskExecutor$TaskException: A task failed, no new tasks can be submitted

@@ -1,0 +1,2 @@
+MARK* score validation failed:
+B1=ASP complex: effective epsilon 0.996641 exceeds requested 0.68 or is non-finite

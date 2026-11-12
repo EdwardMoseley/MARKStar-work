@@ -1,0 +1,6 @@
+Step 1/15: B1; input /home/users/etm33/src/OSPREY3/MARKStar-work/PKN2_SAV1_forced_pilot_model_0.clean.pdb
+Step 2/15: B2; input /home/users/etm33/src/OSPREY3/MARKStar-work/sequential-pkn2-flex5-20261110/step_001/next_input.pdb
+Step 3/15: B3; input /home/users/etm33/src/OSPREY3/MARKStar-work/sequential-pkn2-flex5-20261110/step_002/next_input.pdb
+Step 4/15: B4; input /home/users/etm33/src/OSPREY3/MARKStar-work/sequential-pkn2-flex5-20261110/step_002/next_input.pdb
+Step 5/15: B5; input /home/users/etm33/src/OSPREY3/MARKStar-work/sequential-pkn2-flex5-20261110/step_002/next_input.pdb
+[2026-11-11T09:17:04.132] error: *** JOB 13497969 ON linux32 CANCELLED AT 2026-11-11T09:17:04 DUE to SIGNAL Terminated ***

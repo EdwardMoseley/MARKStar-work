@@ -1,0 +1,742 @@
+Input: /home/users/etm33/src/OSPREY3/MARKStar-work/PKN2_SAV1_forced_pilot_model_0.clean.pdb
+Mutation target: HIS B1; CA (10.926, -0.85, -19.018)
+PRO excluded explicitly; this is not a complete 20-identity scan.
+Selected 1 of 5 requested neighbors within 4 Å:
+  GLU B2: 3.799 Å
+WARNING: fewer neighbors than requested are within the radius; using all available.
+WARNING: Using incubator modules: jdk.incubator.foreign
+OSPREY 3.3-dev, Python 3.11.15, Java 17.0.18, Linux-7.0.0-43-generic-x86_64-with-glibc2.43
+Using up to 4096 MiB heap memory: 128 MiB for garbage, 3968 MiB for storage
+read PDB file from file: /home/users/etm33/src/OSPREY3/MARKStar-work/PKN2_SAV1_forced_pilot_model_0.clean.pdb
+Calculating reference energies for 0 residue confs...
+Calculating energy matrix with 0 entries
+Calculating energy matrix with 0 entries
+Calculating reference energies for 196 residue confs...
+Progress:  100.0%   ETA: 0 ns
+Finished in 251.9 ms
+Calculating energy matrix with 1879 entries
+Progress:  100.0%   ETA: 0 ns
+Finished in 1.8 s
+Calculating energy matrix with 1879 entries
+Progress:  100.0%   ETA: 0 ns
+Finished in 192.1 ms
+Calculating reference energies for 196 residue confs...
+Progress:  100.0%   ETA: 0 ns
+Finished in 227.8 ms
+Calculating energy matrix with 1879 entries
+Progress:   12.4%   ETA: 34.5 s
+Progress:   48.1%   ETA: 10.4 s
+Progress:   94.1%   ETA: 3.4 s
+Progress:  100.0%   ETA: 704.0 ms
+Finished in 16.9 s
+Calculating energy matrix with 1879 entries
+Progress:  100.0%   ETA: 0 ns
+Finished in 925.7 ms
+computing K* scores for 19 sequences to epsilon = 0.68 ...
+Running until leaf is found...
+Found a leaf!
+Running until leaf is found...
+MARK* expanded:         9, queued:         0, scored/sec: 9337, partial minimizations:    0, time:24.11 ms, delta:1.00000000000 heapMem:1.0% of 4.0 GiB, 62.0 MiB alloc, extMem:0 B
+Found a leaf!
+Current overall error bound: 0.9953655192, spread of [6.507679e+02, 1.404187e+05]
+Z Comparison: 1.385363e+05, 1.231360e+03
+Processing 8 internal nodes...
+Loop complete. Bounds are now [2.131511e+03,1.727616e+04]
+Current overall error bound: 0.8766212607, spread of [2.131511e+03, 1.727616e+04]
+Z Comparison: 0.000000e+00, 1.067709e+04
+Processing 1 leaf nodes...
+[186   7    ]conf:   1, score:   -5.562675, lower:   -5.562675, corrected:   -5.562675 energy:   -4.844280, bounds:[2.131511e+03, 1.727616e+04], delta:    0.876621, time: 121.42 ms
+Processed 1 leaves in 0.056712511 seconds.
+Loop complete. Bounds are now [4.490047e+03,8.957606e+03]
+Running until leaf is found...
+MARK* expanded:         9, queued:         0, scored/sec: 3338, partial minimizations:    0, time:1.68 ms, delta:1.00000000000 heapMem:1.0% of 4.0 GiB, 62.0 MiB alloc, extMem:0 B
+Found a leaf!
+Current overall error bound: 0.9170697778, spread of [6.199391e+07, 7.475430e+08]
+Z Comparison: 1.792194e+01, 2.643983e+08
+Processing 1 leaf nodes...
+[186   8    ]conf:   1, score:  -11.587049, lower:  -11.587049, corrected:  -11.587049 energy:  -11.554846, bounds:[6.199391e+07, 7.475430e+08], delta:    0.917070, time: 150.19 ms
+Processed 1 leaves in 0.145442792 seconds.
+Loop complete. Bounds are now [3.102362e+08,7.313870e+08]
+sequence    1/  19   B1=hid   K*(log10): 4.839442  in [4.539501 , 5.211896] (log10)   protein: [0.000000 , 0.000000] (log10)                   , numConfs:    0, delta: 0.000   ligand: [3.652251 , 3.952192] (log10)                   , numConfs:    1, delta: 0.499   complex: [8.491693 , 8.864147] (log10)                   , numConfs:    1, delta: 0.576
+Running until leaf is found...
+MARK* expanded:         9, queued:         0, scored/sec:15462, partial minimizations:    0, time:1.74 ms, delta:1.00000000000 heapMem:1.0% of 4.0 GiB, 62.0 MiB alloc, extMem:0 B
+Found a leaf!
+Running until leaf is found...
+MARK* expanded:         9, queued:         0, scored/sec:16619, partial minimizations:    0, time:1.75 ms, delta:1.00000000000 heapMem:1.0% of 4.0 GiB, 60.0 MiB alloc, extMem:0 B
+Found a leaf!
+sequence    2/  19   B1=ALA   K*(log10): -0.182019 in [-0.496075, 0.061878] (log10)   protein: [0.000000 , 0.000000] (log10)                   , numConfs:    0, delta: 0.000   ligand: [3.074295 , 3.388351] (log10)                   , numConfs:    0, delta: 0.515   complex: [2.892275 , 3.136173] (log10)                   , numConfs:    0, delta: 0.430
+Running until leaf is found...
+MARK* expanded:         9, queued:         0, scored/sec:28314, partial minimizations:    0, time:1.54 ms, delta:1.00000000000 heapMem:1.0% of 4.0 GiB, 60.0 MiB alloc, extMem:0 B
+Found a leaf!
+Current overall error bound: 0.9946585126, spread of [6.475143e+03, 1.212236e+06]
+Z Comparison: 1.181810e+06, 2.849639e+03
+Processing 8 internal nodes...
+Loop complete. Bounds are now [1.506441e+04,1.469892e+05]
+Current overall error bound: 0.8975134946, spread of [1.506441e+04, 1.469892e+05]
+Z Comparison: 0.000000e+00, 1.595389e+04
+Processing 1 leaf nodes...
+[10    5    ]conf:   1, score:   -5.739218, lower:   -5.739218, corrected:   -5.739218 energy:   -4.180325, bounds:[1.506441e+04, 1.469892e+05], delta:    0.897513, time:  81.57 ms
+Processed 1 leaves in 0.047023708 seconds.
+Loop complete. Bounds are now [1.621595e+04,1.321869e+05]
+Current overall error bound: 0.8773255995, spread of [1.621595e+04, 1.321869e+05]
+Z Comparison: 0.000000e+00, 1.965473e+04
+Processing 2 leaf nodes...
+[11    0    ]conf:   2, score:   -5.595510, lower:   -5.595510, corrected:   -5.595510 energy:   -3.444384, bounds:[1.621595e+04, 1.321869e+05], delta:    0.877326, time: 138.60 ms
+[11    5    ]conf:   3, score:   -5.266631, lower:   -5.266631, corrected:   -5.266631 energy:   -3.015650, bounds:[1.621595e+04, 1.321869e+05], delta:    0.877326, time: 144.79 ms
+Processed 2 leaves in 0.063606557 seconds.
+Loop complete. Bounds are now [1.665351e+04,1.129697e+05]
+Current overall error bound: 0.8525842872, spread of [1.665351e+04, 1.129697e+05]
+Z Comparison: 0.000000e+00, 9.618063e+03
+Processing 3 leaf nodes...
+[11    7    ]conf:   4, score:   -4.818560, lower:   -4.818560, corrected:   -4.818560 energy:   -3.973459, bounds:[1.665351e+04, 1.129697e+05], delta:    0.852584, time: 187.04 ms
+[24    7    ]conf:   5, score:   -4.989351, lower:   -4.989351, corrected:   -4.989351 energy:   -4.713765, bounds:[1.665351e+04, 1.129697e+05], delta:    0.852584, time: 190.00 ms
+[32    7    ]conf:   6, score:   -4.841655, lower:   -4.841655, corrected:   -4.841655 energy:   -4.430009, bounds:[1.665351e+04, 1.129697e+05], delta:    0.852584, time: 198.65 ms
+Processed 3 leaves in 0.050740436 seconds.
+Loop complete. Bounds are now [2.027367e+04,1.069718e+05]
+Current overall error bound: 0.8104765378, spread of [2.027367e+04, 1.069718e+05]
+Z Comparison: 0.000000e+00, 1.150337e+04
+Processing 4 leaf nodes...
+[10    7    ]conf:   7, score:   -4.750521, lower:   -4.750521, corrected:   -4.750521 energy:   -3.538934, bounds:[2.027367e+04, 1.069718e+05], delta:    0.810477, time: 233.71 ms
+[10    8    ]conf:   8, score:   -4.698079, lower:   -4.698079, corrected:   -4.698079 energy:   -3.758975, bounds:[2.027367e+04, 1.069718e+05], delta:    0.810477, time: 244.48 ms
+[11    8    ]conf:   9, score:   -4.747599, lower:   -4.747599, corrected:   -4.747599 energy:   -3.978956, bounds:[2.027367e+04, 1.069718e+05], delta:    0.810477, time: 249.24 ms
+[16    7    ]conf:  10, score:   -4.725096, lower:   -4.725096, corrected:   -4.725096 energy:   -4.383978, bounds:[2.027367e+04, 1.069718e+05], delta:    0.810477, time: 256.36 ms
+Processed 4 leaves in 0.055843658 seconds.
+Loop complete. Bounds are now [2.352534e+04,9.872011e+04]
+Current overall error bound: 0.7616966096, spread of [2.352534e+04, 9.872011e+04]
+Z Comparison: 0.000000e+00, 9.859814e+03
+Processing 4 leaf nodes...
+[31    7    ]conf:  11, score:   -4.738258, lower:   -4.738258, corrected:   -4.738258 energy:   -4.402321, bounds:[2.352534e+04, 9.872011e+04], delta:    0.761697, time: 286.50 ms
+[25    7    ]conf:  12, score:   -4.822216, lower:   -4.822216, corrected:   -4.822216 energy:   -4.536075, bounds:[2.352534e+04, 9.872011e+04], delta:    0.761697, time: 299.95 ms
+[26    7    ]conf:  13, score:   -4.823726, lower:   -4.823726, corrected:   -4.823726 energy:   -4.501580, bounds:[2.352534e+04, 9.872011e+04], delta:    0.761697, time: 309.73 ms
+[9     5    ]conf:  14, score:   -4.551382, lower:   -4.551382, corrected:   -4.551382 energy:   -2.370785, bounds:[2.352534e+04, 9.872011e+04], delta:    0.761697, time: 327.92 ms
+Processed 4 leaves in 0.070682765 seconds.
+Loop complete. Bounds are now [2.728181e+04,9.261677e+04]
+Current overall error bound: 0.7054333830, spread of [2.728181e+04, 9.261677e+04]
+Z Comparison: 0.000000e+00, 7.850192e+03
+Processing 4 leaf nodes...
+[20    7    ]conf:  15, score:   -4.543888, lower:   -4.543888, corrected:   -4.543888 energy:   -4.274094, bounds:[2.728181e+04, 9.261677e+04], delta:    0.705433, time: 385.06 ms
+[29    7    ]conf:  16, score:   -4.608440, lower:   -4.608440, corrected:   -4.608440 energy:   -4.303443, bounds:[2.728181e+04, 9.261677e+04], delta:    0.705433, time: 387.48 ms
+[28    7    ]conf:  17, score:   -4.624020, lower:   -4.624020, corrected:   -4.624020 energy:   -4.342325, bounds:[2.728181e+04, 9.261677e+04], delta:    0.705433, time: 391.07 ms
+[16    8    ]conf:  18, score:   -4.479937, lower:   -4.479937, corrected:   -4.479937 energy:   -4.331775, bounds:[2.728181e+04, 9.261677e+04], delta:    0.705433, time: 393.84 ms
+Processed 4 leaves in 0.064804334 seconds.
+Loop complete. Bounds are now [3.206004e+04,8.954481e+04]
+Running until leaf is found...
+MARK* expanded:        34, queued:         0, scored/sec:87054, partial minimizations:    0, time:3.29 ms, delta:1.00000000000 heapMem:1.0% of 4.0 GiB, 60.0 MiB alloc, extMem:0 B
+Found a leaf!
+Current overall error bound: 1.0000000000, spread of [4.671903e-05, 6.303832e+11]
+Z Comparison: 6.303702e+11, 5.468716e+06
+Processing 33 internal nodes...
+Loop complete. Bounds are now [6.857160e+08,1.540137e+11]
+Current overall error bound: 0.9955476957, spread of [6.857160e+08, 1.540137e+11]
+Z Comparison: 0.000000e+00, 6.359790e+10
+Processing 1 leaf nodes...
+Bounds are incorrect:-14.75655869454229 > -14.769396140086041
+The bounds are probably wrong.
+Updating conf lower bound of  -14.75655869454229 with -14.769396140086041, which is lower!?
+Updating conf lower bound of  -14.75655869454229 with -14.769396140086041, which is lower!?
+[32    8    ]conf:   1, score:  -14.756559, lower:  -14.756559, corrected:  -14.756559 energy:  -14.769396, bounds:[6.857160e+08, 1.540137e+11], delta:    0.995548, time: 526.22 ms
+Processed 1 leaves in 0.505496148 seconds.
+Loop complete. Bounds are now [6.568455e+10,1.540137e+11]
+sequence    3/  19   B1=ARG   K*(log10): 6.311499  in [5.865423 , 6.681595] (log10)   protein: [0.000000 , 0.000000] (log10)                   , numConfs:    0, delta: 0.000   ligand: [4.505964 , 4.952040] (log10)                   , numConfs:   18, delta: 0.642   complex: [10.817463,11.187559] (log10)                   , numConfs:    1, delta: 0.574
+Running until leaf is found...
+MARK* expanded:         9, queued:         0, scored/sec:48363, partial minimizations:    0, time:900.71 us, delta:1.00000000000 heapMem:1.0% of 4.0 GiB, 64.0 MiB alloc, extMem:0 B
+Found a leaf!
+Current overall error bound: 0.9296929568, spread of [1.353737e+03, 1.925464e+04]
+Z Comparison: 1.642759e+04, 4.405345e+02
+Processing 8 internal nodes...
+Loop complete. Bounds are now [3.001388e+03,9.011107e+03]
+Running until leaf is found...
+MARK* expanded:         7, queued:         0, scored/sec:17225, partial minimizations:    0, time:1.27 ms, delta:1.00000000000 heapMem:1.0% of 4.0 GiB, 60.0 MiB alloc, extMem:0 B
+Found a leaf!
+Current overall error bound: 0.9999999957, spread of [1.082486e-04, 2.503082e+04]
+Z Comparison: 2.459595e+04, 2.552212e+02
+Processing 6 internal nodes...
+Loop complete. Bounds are now [9.951421e+02,4.701663e+03]
+Current overall error bound: 0.7883425288, spread of [9.951421e+02, 4.701663e+03]
+Z Comparison: 0.000000e+00, 1.322939e+03
+Processing 1 leaf nodes...
+[38    8    ]conf:   1, score:   -4.513664, lower:   -4.513664, corrected:   -4.513664 energy:   -4.488012, bounds:[9.951421e+02, 4.701663e+03], delta:    0.788343, time: 113.90 ms
+Processed 1 leaves in 0.106912962 seconds.
+Loop complete. Bounds are now [2.232563e+03,4.616146e+03]
+sequence    4/  19   B1=ASN   K*(log10): -0.128518 in [-0.605974, 0.186957] (log10)   protein: [0.000000 , 0.000000] (log10)                   , numConfs:    0, delta: 0.000   ligand: [3.477322 , 3.954778] (log10)                   , numConfs:    0, delta: 0.667   complex: [3.348804 , 3.664280] (log10)                   , numConfs:    1, delta: 0.516
+Running until leaf is found...
+MARK* expanded:         9, queued:         0, scored/sec:63048, partial minimizations:    0, time:916.21 us, delta:1.00000000000 heapMem:1.0% of 4.0 GiB, 60.0 MiB alloc, extMem:0 B
+Found a leaf!
+Current overall error bound: 0.9629508827, spread of [5.472887e+02, 1.477198e+04]
+Z Comparison: 1.297168e+04, 1.049506e+03
+Processing 8 internal nodes...
+Loop complete. Bounds are now [1.104513e+03,4.756042e+03]
+Current overall error bound: 0.7677663381, spread of [1.104513e+03, 4.756042e+03]
+Z Comparison: 0.000000e+00, 1.398688e+03
+Processing 1 leaf nodes...
+[45    7    ]conf:   1, score:   -4.426201, lower:   -4.426201, corrected:   -4.426201 energy:   -4.298819, bounds:[1.104513e+03, 4.756042e+03], delta:    0.767766, time:  20.65 ms
+Processed 1 leaves in 0.017076233 seconds.
+Loop complete. Bounds are now [2.166268e+03,4.419108e+03]
+Running until leaf is found...
+MARK* expanded:         5, queued:         0, scored/sec:    0, partial minimizations:    0, time:490.35 us, delta:1.00000000000 heapMem:1.0% of 4.0 GiB, 60.0 MiB alloc, extMem:0 B
+Found a leaf!
+sequence    5/  19   B1=ASP   K*(log10): -5.810860 in [-6.120482,-3.337104] (log10)   protein: [0.000000 , 0.000000] (log10)                   , numConfs:    0, delta: 0.000   ligand: [3.335712 , 3.645335] (log10)                   , numConfs:    1, delta: 0.510   complex: [-2.475148,-0.001391] (log10)                   , numConfs:    0, delta: 0.997
+Running until leaf is found...
+MARK* expanded:         9, queued:         0, scored/sec:59296, partial minimizations:    0, time:798.34 us, delta:1.00000000000 heapMem:1.0% of 4.0 GiB, 64.0 MiB alloc, extMem:0 B
+Found a leaf!
+Current overall error bound: 0.7974653876, spread of [1.721498e+03, 8.499771e+03]
+Z Comparison: 5.987296e+03, 3.915767e+02
+Processing 8 internal nodes...
+Loop complete. Bounds are now [2.597619e+03,6.178736e+03]
+Running until leaf is found...
+MARK* expanded:         9, queued:         0, scored/sec:46868, partial minimizations:    0, time:920.42 us, delta:1.00000000000 heapMem:1.0% of 4.0 GiB, 60.0 MiB alloc, extMem:0 B
+Found a leaf!
+Current overall error bound: 0.7078248597, spread of [2.420910e+03, 8.285817e+03]
+Z Comparison: 4.028025e+03, 9.736824e+02
+Processing 8 internal nodes...
+Loop complete. Bounds are now [3.486760e+03,6.795877e+03]
+sequence    6/  19   B1=CYS   K*(log10): 0.127847  in [-0.248478, 0.417670] (log10)   protein: [0.000000 , 0.000000] (log10)                   , numConfs:    0, delta: 0.000   ligand: [3.414575 , 3.790900] (log10)                   , numConfs:    0, delta: 0.580   complex: [3.542422 , 3.832246] (log10)                   , numConfs:    0, delta: 0.487
+Running until leaf is found...
+MARK* expanded:         9, queued:         0, scored/sec:82442, partial minimizations:    0, time:884.69 us, delta:1.00000000000 heapMem:1.0% of 4.0 GiB, 60.0 MiB alloc, extMem:0 B
+Found a leaf!
+Current overall error bound: 0.9693110594, spread of [2.873571e+03, 9.363538e+04]
+Z Comparison: 7.996562e+04, 3.163954e+03
+Processing 8 internal nodes...
+Loop complete. Bounds are now [6.362047e+03,4.283135e+04]
+Current overall error bound: 0.8514628466, spread of [6.362047e+03, 4.283135e+04]
+Z Comparison: 0.000000e+00, 5.289323e+03
+Processing 1 leaf nodes...
+[52    7    ]conf:   1, score:   -5.154560, lower:   -5.154560, corrected:   -5.154560 energy:   -4.807603, bounds:[6.362047e+03, 4.283135e+04], delta:    0.851463, time:  17.70 ms
+Processed 1 leaves in 0.012807792 seconds.
+Loop complete. Bounds are now [9.014803e+03,4.019479e+04]
+Current overall error bound: 0.7757220801, spread of [9.014803e+03, 4.019479e+04]
+Z Comparison: 0.000000e+00, 7.172134e+03
+Processing 2 leaf nodes...
+[54    7    ]conf:   2, score:   -4.824983, lower:   -4.824983, corrected:   -4.824983 energy:   -4.517783, bounds:[9.014803e+03, 4.019479e+04], delta:    0.775722, time:  33.85 ms
+[53    7    ]conf:   3, score:   -4.935838, lower:   -4.935838, corrected:   -4.935838 energy:   -4.403696, bounds:[9.014803e+03, 4.019479e+04], delta:    0.775722, time:  47.68 ms
+Processed 2 leaves in 0.029714513 seconds.
+Loop complete. Bounds are now [1.236794e+04,3.637579e+04]
+Running until leaf is found...
+MARK* expanded:         9, queued:         0, scored/sec:42809, partial minimizations:    0, time:898.70 us, delta:1.00000000000 heapMem:1.0% of 4.0 GiB, 64.0 MiB alloc, extMem:0 B
+Found a leaf!
+Current overall error bound: 0.9970434686, spread of [9.267337e+03, 3.134530e+06]
+Z Comparison: 3.102782e+06, 1.264285e+04
+Processing 8 internal nodes...
+Loop complete. Bounds are now [3.245758e+04,5.986247e+05]
+Current overall error bound: 0.9457797448, spread of [3.245758e+04, 5.986247e+05]
+Z Comparison: 0.000000e+00, 2.434789e+05
+Processing 1 leaf nodes...
+[54    8    ]conf:   1, score:   -7.366467, lower:   -7.366467, corrected:   -7.366467 energy:   -7.124116, bounds:[3.245758e+04, 5.986247e+05], delta:    0.945780, time: 303.50 ms
+Processed 1 leaves in 0.299763643 seconds.
+Loop complete. Bounds are now [1.927322e+05,5.154205e+05]
+sequence    7/  19   B1=GLN   K*(log10): 1.192657  in [0.724142 , 1.619864] (log10)   protein: [0.000000 , 0.000000] (log10)                   , numConfs:    0, delta: 0.000   ligand: [4.092297 , 4.560812] (log10)                   , numConfs:    3, delta: 0.660   complex: [5.284954 , 5.712162] (log10)                   , numConfs:    1, delta: 0.626
+Running until leaf is found...
+MARK* expanded:         9, queued:         0, scored/sec:145862, partial minimizations:    0, time:550.58 us, delta:1.00000000000 heapMem:1.0% of 4.0 GiB, 64.0 MiB alloc, extMem:0 B
+Found a leaf!
+Current overall error bound: 0.9878952891, spread of [1.064080e+04, 8.790629e+05]
+Z Comparison: 8.176209e+05, 4.891607e+04
+Processing 8 internal nodes...
+Loop complete. Bounds are now [2.188358e+04,1.681775e+05]
+Current overall error bound: 0.8698781243, spread of [2.188358e+04, 1.681775e+05]
+Z Comparison: 0.000000e+00, 6.006160e+04
+Processing 1 leaf nodes...
+[62    7    ]conf:   1, score:   -6.586736, lower:   -6.586736, corrected:   -6.586736 energy:   -6.065746, bounds:[2.188358e+04, 1.681775e+05], delta:    0.869878, time:  48.75 ms
+Processed 1 leaves in 0.041877429 seconds.
+Loop complete. Bounds are now [4.300825e+04,1.292406e+05]
+Running until leaf is found...
+MARK* expanded:         8, queued:         0, scored/sec:25600, partial minimizations:    0, time:522.93 us, delta:1.00000000000 heapMem:1.0% of 4.0 GiB, 60.0 MiB alloc, extMem:0 B
+Found a leaf!
+Current overall error bound: 0.9996624366, spread of [7.065483e-02, 2.093083e+02]
+Z Comparison: 2.090648e+02, 1.112535e-01
+Processing 7 internal nodes...
+Loop complete. Bounds are now [2.940267e+00,3.548722e+01]
+Current overall error bound: 0.9171457490, spread of [2.940267e+00, 3.548722e+01]
+Z Comparison: 0.000000e+00, 2.114221e+01
+Processing 1 leaf nodes...
+[62    8    ]conf:   1, score:   -1.864033, lower:   -1.864033, corrected:   -1.864033 energy:   -1.422733, bounds:[2.940267e+00, 3.548722e+01], delta:    0.917146, time: 218.24 ms
+Processed 1 leaves in 0.215398672 seconds.
+Loop complete. Bounds are now [1.191847e+01,2.332321e+01]
+sequence    8/  19   B1=GLU   K*(log10): -3.557331 in [-4.035179,-3.265763] (log10)   protein: [0.000000 , 0.000000] (log10)                   , numConfs:    0, delta: 0.000   ligand: [4.633552 , 5.111399] (log10)                   , numConfs:    1, delta: 0.667   complex: [1.076220 , 1.367788] (log10)                   , numConfs:    1, delta: 0.489
+Running until leaf is found...
+MARK* expanded:         9, queued:         0, scored/sec:51248, partial minimizations:    0, time:838.24 us, delta:1.00000000000 heapMem:1.0% of 4.0 GiB, 64.0 MiB alloc, extMem:0 B
+Found a leaf!
+Running until leaf is found...
+MARK* expanded:         9, queued:         0, scored/sec:40331, partial minimizations:    0, time:991.56 us, delta:1.00000000000 heapMem:1.0% of 4.0 GiB, 64.0 MiB alloc, extMem:0 B
+Found a leaf!
+sequence    9/  19   B1=GLY   K*(log10): -0.770021 in [-1.083575,-0.527448] (log10)   protein: [0.000000 , 0.000000] (log10)                   , numConfs:    0, delta: 0.000   ligand: [3.109137 , 3.422691] (log10)                   , numConfs:    0, delta: 0.514   complex: [2.339116 , 2.581689] (log10)                   , numConfs:    0, delta: 0.428
+Running until leaf is found...
+MARK* expanded:         9, queued:         0, scored/sec:121439, partial minimizations:    0, time:497.31 us, delta:1.00000000000 heapMem:1.0% of 4.0 GiB, 64.0 MiB alloc, extMem:0 B
+Found a leaf!
+Current overall error bound: 0.9739981702, spread of [5.953613e+02, 2.289690e+04]
+Z Comparison: 2.009032e+04, 1.029525e+03
+Processing 8 internal nodes...
+Loop complete. Bounds are now [1.296294e+03,8.521993e+03]
+Current overall error bound: 0.8478883728, spread of [1.296294e+03, 8.521993e+03]
+Z Comparison: 0.000000e+00, 1.556070e+03
+Processing 1 leaf nodes...
+[80    7    ]conf:   1, score:   -4.457460, lower:   -4.457460, corrected:   -4.457460 energy:   -4.245177, bounds:[1.296294e+03, 8.521993e+03], delta:    0.847888, time:  23.78 ms
+Processed 1 leaves in 0.020644969 seconds.
+Loop complete. Bounds are now [2.299476e+03,7.969104e+03]
+Current overall error bound: 0.7114511372, spread of [2.299476e+03, 7.969104e+03]
+Z Comparison: 0.000000e+00, 2.285882e+03
+Processing 2 leaf nodes...
+[81    7    ]conf:   2, score:   -4.297856, lower:   -4.297856, corrected:   -4.297856 energy:   -3.960336, bounds:[2.299476e+03, 7.969104e+03], delta:    0.711451, time:  40.18 ms
+[80    8    ]conf:   3, score:   -4.300921, lower:   -4.300921, corrected:   -4.300921 energy:   -4.205224, bounds:[2.299476e+03, 7.969104e+03], delta:    0.711451, time:  41.53 ms
+Processed 2 leaves in 0.017091044 seconds.
+Loop complete. Bounds are now [3.765780e+03,7.149527e+03]
+Running until leaf is found...
+MARK* expanded:         7, queued:         0, scored/sec:13109, partial minimizations:    0, time:672.99 us, delta:1.00000000000 heapMem:1.0% of 4.0 GiB, 60.0 MiB alloc, extMem:0 B
+Found a leaf!
+Current overall error bound: 0.8826768866, spread of [2.324222e+01, 1.981043e+02]
+Z Comparison: 5.487064e+01, 7.263203e+01
+Processing 1 leaf nodes...
+[82    8    ]conf:   1, score:   -2.659838, lower:   -2.659838, corrected:   -2.659838 energy:   -2.549489, bounds:[2.324222e+01, 1.981043e+02], delta:    0.882677, time: 173.39 ms
+Processed 1 leaves in 0.172320034 seconds.
+Loop complete. Bounds are now [8.081802e+01,1.830481e+02]
+sequence   10/  19   B1=ILE   K*(log10): -1.668347 in [-1.946769,-1.313290] (log10)   protein: [0.000000 , 0.000000] (log10)                   , numConfs:    0, delta: 0.000   ligand: [3.575855 , 3.854277] (log10)                   , numConfs:    3, delta: 0.473   complex: [1.907508 , 2.262565] (log10)                   , numConfs:    1, delta: 0.558
+Running until leaf is found...
+MARK* expanded:         9, queued:         0, scored/sec:153469, partial minimizations:    0, time:519.99 us, delta:1.00000000000 heapMem:1.0% of 4.0 GiB, 60.0 MiB alloc, extMem:0 B
+Found a leaf!
+Current overall error bound: 0.9903896761, spread of [3.377687e+02, 3.514644e+04]
+Z Comparison: 3.048838e+04, 2.621221e+03
+Processing 8 internal nodes...
+Loop complete. Bounds are now [7.448317e+02,1.434439e+04]
+Current overall error bound: 0.9480750632, spread of [7.448317e+02, 1.434439e+04]
+Z Comparison: 0.000000e+00, 3.664599e+03
+Processing 1 leaf nodes...
+[84    7    ]conf:   1, score:   -4.894585, lower:   -4.894585, corrected:   -4.894585 energy:   -4.440814, bounds:[7.448317e+02, 1.434439e+04], delta:    0.948075, time:  17.64 ms
+Processed 1 leaves in 0.015181577 seconds.
+Loop complete. Bounds are now [2.356024e+03,1.229099e+04]
+Current overall error bound: 0.8083128344, spread of [2.356024e+03, 1.229099e+04]
+Z Comparison: 0.000000e+00, 3.755873e+03
+Processing 2 leaf nodes...
+[84    8    ]conf:   2, score:   -4.718318, lower:   -4.718318, corrected:   -4.718318 energy:   -4.394178, bounds:[2.356024e+03, 1.229099e+04], delta:    0.808313, time:  32.01 ms
+[87    7    ]conf:   3, score:   -4.203740, lower:   -4.203740, corrected:   -4.203740 energy:   -4.041963, bounds:[2.356024e+03, 1.229099e+04], delta:    0.808313, time:  51.37 ms
+Processed 2 leaves in 0.03356094 seconds.
+Loop complete. Bounds are now [4.624732e+03,1.080382e+04]
+Running until leaf is found...
+MARK* expanded:         5, queued:         0, scored/sec:54825, partial minimizations:    0, time:418.52 us, delta:1.00000000000 heapMem:1.0% of 4.0 GiB, 64.0 MiB alloc, extMem:0 B
+Found a leaf!
+Current overall error bound: 1.0000000000, spread of [2.358564e-17, 4.972706e+05]
+Z Comparison: 4.972705e+05, 4.076219e-02
+Processing 4 internal nodes...
+Loop complete. Bounds are now [5.729403e+03,9.188804e+04]
+Current overall error bound: 0.9376480028, spread of [5.729403e+03, 9.188804e+04]
+Z Comparison: 0.000000e+00, 4.539776e+04
+Processing 1 leaf nodes...
+[84    8    ]conf:   1, score:   -6.406983, lower:   -6.406983, corrected:   -6.406983 energy:   -6.106698, bounds:[5.729403e+03, 9.188804e+04], delta:    0.937648, time: 202.75 ms
+Processed 1 leaves in 0.200506855 seconds.
+Loop complete. Bounds are now [3.158392e+04,7.234479e+04]
+sequence   11/  19   B1=LEU   K*(log10): 0.834379  in [0.465889 , 1.194321] (log10)   protein: [0.000000 , 0.000000] (log10)                   , numConfs:    0, delta: 0.000   ligand: [3.665087 , 4.033577] (log10)                   , numConfs:    3, delta: 0.572   complex: [4.499466 , 4.859407] (log10)                   , numConfs:    1, delta: 0.563
+Running until leaf is found...
+MARK* expanded:         9, queued:         0, scored/sec:72878, partial minimizations:    0, time:858.01 us, delta:1.00000000000 heapMem:1.0% of 4.0 GiB, 64.0 MiB alloc, extMem:0 B
+Found a leaf!
+Current overall error bound: 0.9989252949, spread of [3.312383e+03, 3.082133e+06]
+Z Comparison: 3.061828e+06, 3.263339e+03
+Processing 8 internal nodes...
+Loop complete. Bounds are now [7.749278e+03,1.998639e+05]
+Current overall error bound: 0.9612272289, spread of [7.749278e+03, 1.998639e+05]
+Z Comparison: 0.000000e+00, 1.001266e+05
+Processing 1 leaf nodes...
+[93    5    ]conf:   1, score:   -6.828581, lower:   -6.828581, corrected:   -6.828581 energy:   -4.296966, bounds:[7.749278e+03, 1.998639e+05], delta:    0.961227, time:  53.31 ms
+Processed 1 leaves in 0.04435641 seconds.
+Loop complete. Bounds are now [9.136229e+03,1.011243e+05]
+Current overall error bound: 0.9096534631, spread of [9.136229e+03, 1.011243e+05]
+Z Comparison: 0.000000e+00, 2.507018e+04
+Processing 2 leaf nodes...
+[94    0    ]conf:   2, score:   -5.251127, lower:   -5.251127, corrected:   -5.251127 energy:   -3.327070, bounds:[9.136229e+03, 1.011243e+05], delta:    0.909653, time:  69.83 ms
+[94    5    ]conf:   3, score:   -5.814275, lower:   -5.814275, corrected:   -5.814275 energy:   -3.109160, bounds:[9.136229e+03, 1.011243e+05], delta:    0.909653, time:  82.83 ms
+Processed 2 leaves in 0.029183723 seconds.
+Loop complete. Bounds are now [9.556957e+03,7.647484e+04]
+Current overall error bound: 0.8750313568, spread of [9.556957e+03, 7.647484e+04]
+Z Comparison: 0.000000e+00, 9.263805e+03
+Processing 3 leaf nodes...
+[93    7    ]conf:   4, score:   -4.787442, lower:   -4.787442, corrected:   -4.787442 energy:   -3.178976, bounds:[9.556957e+03, 7.647484e+04], delta:    0.875031, time: 104.02 ms
+[103   7    ]conf:   5, score:   -4.757066, lower:   -4.757066, corrected:   -4.757066 energy:   -4.434981, bounds:[9.556957e+03, 7.647484e+04], delta:    0.875031, time: 107.66 ms
+[93    8    ]conf:   6, score:   -4.810489, lower:   -4.810489, corrected:   -4.810489 energy:   -3.312564, bounds:[9.556957e+03, 7.647484e+04], delta:    0.875031, time: 113.19 ms
+Processed 3 leaves in 0.030026529 seconds.
+Loop complete. Bounds are now [1.148628e+04,6.914036e+04]
+Current overall error bound: 0.8338700665, spread of [1.148628e+04, 6.914036e+04]
+Z Comparison: 0.000000e+00, 9.203389e+03
+Processing 4 leaf nodes...
+[106   7    ]conf:   7, score:   -4.738255, lower:   -4.738255, corrected:   -4.738255 energy:   -4.443118, bounds:[1.148628e+04, 6.914036e+04], delta:    0.833870, time: 133.05 ms
+[94    7    ]conf:   8, score:   -4.566035, lower:   -4.566035, corrected:   -4.566035 energy:   -3.776938, bounds:[1.148628e+04, 6.914036e+04], delta:    0.833870, time: 133.27 ms
+[107   7    ]conf:   9, score:   -4.701545, lower:   -4.701545, corrected:   -4.701545 energy:   -4.421151, bounds:[1.148628e+04, 6.914036e+04], delta:    0.833870, time: 138.77 ms
+[93    0    ]conf:  10, score:   -4.687993, lower:   -4.687993, corrected:   -4.687993 energy:   -3.408877, bounds:[1.148628e+04, 6.914036e+04], delta:    0.833870, time: 145.83 ms
+Processed 4 leaves in 0.032315593 seconds.
+Loop complete. Bounds are now [1.446798e+04,6.291867e+04]
+Current overall error bound: 0.7700527347, spread of [1.446798e+04, 6.291867e+04]
+Z Comparison: 0.000000e+00, 7.430993e+03
+Processing 4 leaf nodes...
+[108   7    ]conf:  11, score:   -4.568636, lower:   -4.568636, corrected:   -4.568636 energy:   -4.291107, bounds:[1.446798e+04, 6.291867e+04], delta:    0.770053, time: 173.35 ms
+[94    8    ]conf:  12, score:   -4.519868, lower:   -4.519868, corrected:   -4.519868 energy:   -3.804044, bounds:[1.446798e+04, 6.291867e+04], delta:    0.770053, time: 180.78 ms
+[93    6    ]conf:  13, score:   -4.488729, lower:   -4.488729, corrected:   -4.488729 energy:   -2.634485, bounds:[1.446798e+04, 6.291867e+04], delta:    0.770053, time: 185.39 ms
+[112   7    ]conf:  14, score:   -4.473547, lower:   -4.473547, corrected:   -4.473547 energy:   -4.135524, bounds:[1.446798e+04, 6.291867e+04], delta:    0.770053, time: 188.43 ms
+Processed 4 leaves in 0.042219285 seconds.
+Loop complete. Bounds are now [1.696752e+04,5.798722e+04]
+Current overall error bound: 0.7073920262, spread of [1.696752e+04, 5.798722e+04]
+Z Comparison: 0.000000e+00, 6.409958e+03
+Processing 4 leaf nodes...
+[113   7    ]conf:  15, score:   -4.422979, lower:   -4.422979, corrected:   -4.422979 energy:   -4.045564, bounds:[1.696752e+04, 5.798722e+04], delta:    0.707392, time: 219.54 ms
+[109   7    ]conf:  16, score:   -4.472080, lower:   -4.472080, corrected:   -4.472080 energy:   -4.134358, bounds:[1.696752e+04, 5.798722e+04], delta:    0.707392, time: 224.55 ms
+[103   8    ]conf:  17, score:   -4.450899, lower:   -4.450899, corrected:   -4.450899 energy:   -4.339236, bounds:[1.696752e+04, 5.798722e+04], delta:    0.707392, time: 230.07 ms
+[110   7    ]conf:  18, score:   -4.386077, lower:   -4.386077, corrected:   -4.386077 energy:   -4.048878, bounds:[1.696752e+04, 5.798722e+04], delta:    0.707392, time: 232.82 ms
+Processed 4 leaves in 0.043880876 seconds.
+Loop complete. Bounds are now [2.072515e+04,5.533489e+04]
+Running until leaf is found...
+MARK* expanded:        27, queued:         0, scored/sec:231186, partial minimizations:    0, time:1.35 ms, delta:1.00000000000 heapMem:1.0% of 4.0 GiB, 64.0 MiB alloc, extMem:0 B
+Found a leaf!
+Current overall error bound: 0.9998922612, spread of [9.989989e+06, 9.272415e+10]
+Z Comparison: 8.246070e+10, 5.989737e+09
+Processing 26 internal nodes...
+Loop complete. Bounds are now [5.339827e+08,2.725234e+10]
+Current overall error bound: 0.9804059876, spread of [5.339827e+08, 2.725234e+10]
+Z Comparison: 0.000000e+00, 5.989737e+09
+Processing 1 leaf nodes...
+[114   5    ]conf:   1, score:  -13.351535, lower:  -13.351535, corrected:  -13.351535 energy:  -10.891434, bounds:[5.339827e+08, 2.725234e+10], delta:    0.980406, time: 362.68 ms
+Processed 1 leaves in 0.354904389 seconds.
+Loop complete. Bounds are now [6.284651e+08,2.135709e+10]
+Current overall error bound: 0.9705734622, spread of [6.284651e+08, 2.135709e+10]
+Z Comparison: 0.000000e+00, 4.607668e+09
+Processing 2 leaf nodes...
+[114   8    ]conf:   2, score:  -12.751692, lower:  -12.751692, corrected:  -12.751692 energy:  -12.495272, bounds:[6.284651e+08, 2.135709e+10], delta:    0.970573, time: 805.97 ms
+[112   8    ]conf:   3, score:  -12.887178, lower:  -12.887178, corrected:  -12.887178 energy:  -12.827441, bounds:[6.284651e+08, 2.135709e+10], delta:    0.970573, time: 916.39 ms
+Processed 2 leaves in 0.553337776 seconds.
+Loop complete. Bounds are now [4.209109e+09,2.033006e+10]
+Current overall error bound: 0.7929613300, spread of [4.209109e+09, 2.033006e+10]
+Z Comparison: 0.000000e+00, 4.654460e+09
+Processing 3 leaf nodes...
+[93    5    ]conf:   4, score:  -12.502214, lower:  -12.502214, corrected:  -12.502214 energy:   -9.515111, bounds:[4.209109e+09, 2.033006e+10], delta:    0.792961, time:    1.43 s
+[98    8    ]conf:   5, score:  -12.433800, lower:  -12.433800, corrected:  -12.433800 energy:  -12.234072, bounds:[4.209109e+09, 2.033006e+10], delta:    0.792961, time:    1.46 s
+[94    5    ]conf:   6, score:  -12.686971, lower:  -12.686971, corrected:  -12.686971 energy:   -9.732005, bounds:[4.209109e+09, 2.033006e+10], delta:    0.792961, time:    1.51 s
+Processed 3 leaves in 0.595987712 seconds.
+Loop complete. Bounds are now [5.138214e+09,1.660471e+10]
+Current overall error bound: 0.6905567628, spread of [5.138214e+09, 1.660471e+10]
+Z Comparison: 0.000000e+00, 3.835432e+09
+Processing 4 leaf nodes...
+[114   0    ]conf:   7, score:  -12.202950, lower:  -12.202950, corrected:  -12.202950 energy:  -11.595545, bounds:[5.138214e+09, 1.660471e+10], delta:    0.690557, time:    2.07 s
+[94    0    ]conf:   8, score:  -12.380780, lower:  -12.380780, corrected:  -12.380780 energy:  -10.375730, bounds:[5.138214e+09, 1.660471e+10], delta:    0.690557, time:    2.14 s
+[114   6    ]conf:   9, score:  -12.177290, lower:  -12.177290, corrected:  -12.177290 energy:  -11.782693, bounds:[5.138214e+09, 1.660471e+10], delta:    0.690557, time:    2.28 s
+[112   5    ]conf:  10, score:  -12.281536, lower:  -12.281536, corrected:  -12.281536 energy:  -11.198575, bounds:[5.138214e+09, 1.660471e+10], delta:    0.690557, time:    2.41 s
+Processed 4 leaves in 0.899734334 seconds.
+Loop complete. Bounds are now [6.065264e+09,1.369633e+10]
+sequence   12/  19   B1=LYS   K*(log10): 5.466352  in [5.039851 , 5.820106] (log10)   protein: [0.000000 , 0.000000] (log10)                   , numConfs:    0, delta: 0.000   ligand: [4.316498 , 4.742999] (log10)                   , numConfs:   18, delta: 0.625   complex: [9.782850 ,10.136604] (log10)                   , numConfs:   10, delta: 0.557
+Running until leaf is found...
+MARK* expanded:         9, queued:         0, scored/sec:160905, partial minimizations:    0, time:748.18 us, delta:1.00000000000 heapMem:1.0% of 4.0 GiB, 64.0 MiB alloc, extMem:0 B
+Found a leaf!
+Current overall error bound: 0.9711787864, spread of [7.121760e+03, 2.471013e+05]
+Z Comparison: 2.141819e+05, 7.273480e+03
+Processing 8 internal nodes...
+Loop complete. Bounds are now [1.578565e+04,1.051846e+05]
+Current overall error bound: 0.8499243235, spread of [1.578565e+04, 1.051846e+05]
+Z Comparison: 0.000000e+00, 1.016917e+04
+Processing 1 leaf nodes...
+[120   7    ]conf:   1, score:   -5.476479, lower:   -5.476479, corrected:   -5.476479 energy:   -5.173596, bounds:[1.578565e+04, 1.051846e+05], delta:    0.849924, time:  12.40 ms
+Processed 1 leaves in 0.008307079 seconds.
+Loop complete. Bounds are now [2.185794e+04,1.010877e+05]
+Current overall error bound: 0.7837725377, spread of [2.185794e+04, 1.010877e+05]
+Z Comparison: 0.000000e+00, 1.604533e+04
+Processing 2 leaf nodes...
+[121   7    ]conf:   2, score:   -5.488595, lower:   -5.488595, corrected:   -5.488595 energy:   -5.190624, bounds:[2.185794e+04, 1.010877e+05], delta:    0.783773, time:  20.96 ms
+[120   8    ]conf:   3, score:   -5.281204, lower:   -5.281204, corrected:   -5.281204 energy:   -5.118576, bounds:[2.185794e+04, 1.010877e+05], delta:    0.783773, time:  32.95 ms
+Processed 2 leaves in 0.020196021 seconds.
+Loop complete. Bounds are now [3.200644e+04,9.519089e+04]
+Running until leaf is found...
+MARK* expanded:        13, queued:         0, scored/sec:160365, partial minimizations:    0, time:574.55 us, delta:1.00000000000 heapMem:1.0% of 4.0 GiB, 64.0 MiB alloc, extMem:0 B
+Found a leaf!
+Current overall error bound: 0.9991580808, spread of [5.448657e+03, 6.471710e+06]
+Z Comparison: 6.414138e+06, 3.118576e+04
+Processing 12 internal nodes...
+Loop complete. Bounds are now [8.260787e+04,1.235666e+06]
+Current overall error bound: 0.9331470992, spread of [8.260787e+04, 1.235666e+06]
+Z Comparison: 0.000000e+00, 3.868946e+05
+Processing 1 leaf nodes...
+[119   8    ]conf:   1, score:   -7.673970, lower:   -7.673970, corrected:   -7.673970 energy:   -7.215621, bounds:[8.260787e+04, 1.235666e+06], delta:    0.933147, time: 188.45 ms
+Processed 1 leaves in 0.18516551 seconds.
+Loop complete. Bounds are now [2.452526e+05,1.011416e+06]
+Current overall error bound: 0.7575156777, spread of [2.452526e+05, 1.011416e+06]
+Z Comparison: 0.000000e+00, 3.146801e+05
+Processing 2 leaf nodes...
+[120   8    ]conf:   2, score:   -7.197322, lower:   -7.197322, corrected:   -7.197322 energy:   -7.004456, bounds:[2.452526e+05, 1.011416e+06], delta:    0.757516, time: 377.65 ms
+[119   6    ]conf:   3, score:   -7.027328, lower:   -7.027328, corrected:   -7.027328 energy:   -6.509942, bounds:[2.452526e+05, 1.011416e+06], delta:    0.757516, time: 482.58 ms
+Processed 2 leaves in 0.29384545 seconds.
+Loop complete. Bounds are now [4.266657e+05,8.781493e+05]
+sequence   13/  19   B1=MET   K*(log10): 1.124850  in [0.651492 , 1.438331] (log10)   protein: [0.000000 , 0.000000] (log10)                   , numConfs:    0, delta: 0.000   ligand: [4.505237 , 4.978595] (log10)                   , numConfs:    3, delta: 0.664   complex: [5.630088 , 5.943568] (log10)                   , numConfs:    3, delta: 0.514
+Running until leaf is found...
+MARK* expanded:         9, queued:         0, scored/sec:189172, partial minimizations:    0, time:435.78 us, delta:1.00000000000 heapMem:1.0% of 4.0 GiB, 64.0 MiB alloc, extMem:0 B
+Found a leaf!
+Current overall error bound: 0.9897083287, spread of [1.907519e+03, 1.853459e+05]
+Z Comparison: 1.637665e+05, 1.820196e+04
+Processing 8 internal nodes...
+Loop complete. Bounds are now [3.536689e+03,6.799871e+04]
+Current overall error bound: 0.9479888804, spread of [3.536689e+03, 6.799871e+04]
+Z Comparison: 0.000000e+00, 2.664960e+04
+Processing 1 leaf nodes...
+[129   7    ]conf:   1, score:   -6.049193, lower:   -6.049193, corrected:   -6.049193 energy:   -4.652836, bounds:[3.536689e+03, 6.799871e+04], delta:    0.947989, time:  13.19 ms
+Processed 1 leaves in 0.011349254 seconds.
+Loop complete. Bounds are now [5.833886e+03,4.364631e+04]
+Current overall error bound: 0.8663372278, spread of [5.833886e+03, 4.364631e+04]
+Z Comparison: 0.000000e+00, 2.566486e+04
+Processing 2 leaf nodes...
+[129   6    ]conf:   2, score:   -5.297114, lower:   -5.297114, corrected:   -5.297114 energy:   -4.000806, bounds:[5.833886e+03, 4.364631e+04], delta:    0.866337, time:  24.15 ms
+[129   8    ]conf:   3, score:   -5.827792, lower:   -5.827792, corrected:   -5.827792 energy:   -4.559500, bounds:[5.833886e+03, 4.364631e+04], delta:    0.866337, time:  27.12 ms
+Processed 2 leaves in 0.013698848 seconds.
+Loop complete. Bounds are now [8.437967e+03,2.058553e+04]
+Running until leaf is found...
+MARK* expanded:         4, queued:         0, scored/sec:18215, partial minimizations:    0, time:405.44 us, delta:1.00000000000 heapMem:1.0% of 4.0 GiB, 60.0 MiB alloc, extMem:0 B
+Found a leaf!
+Current overall error bound: 1.0000000000, spread of [3.101612e-35, 2.373834e+06]
+Z Comparison: 2.373834e+06, 2.305567e-05
+Processing 3 internal nodes...
+Loop complete. Bounds are now [5.495221e+03,4.360687e+05]
+Current overall error bound: 0.9873982670, spread of [5.495221e+03, 4.360687e+05]
+Z Comparison: 0.000000e+00, 2.600322e+05
+Processing 1 leaf nodes...
+[129   8    ]conf:   1, score:   -7.402922, lower:   -7.402922, corrected:   -7.402922 energy:   -6.098522, bounds:[5.495221e+03, 4.360687e+05], delta:    0.987398, time: 195.38 ms
+Processed 1 leaves in 0.193448847 seconds.
+Loop complete. Bounds are now [3.100868e+04,2.015500e+05]
+Current overall error bound: 0.8461488994, spread of [3.100868e+04, 2.015500e+05]
+Z Comparison: 0.000000e+00, 1.423940e+05
+Processing 2 leaf nodes...
+[129   0    ]conf:   2, score:   -6.492160, lower:   -6.492160, corrected:   -6.492160 energy:   -5.162994, bounds:[3.100868e+04, 2.015500e+05], delta:    0.846149, time: 503.13 ms
+[129   6    ]conf:   3, score:   -6.747109, lower:   -6.747109, corrected:   -6.747109 energy:   -5.403245, bounds:[3.100868e+04, 2.015500e+05], delta:    0.846149, time: 510.80 ms
+Processed 2 leaves in 0.315179112 seconds.
+Loop complete. Bounds are now [4.441981e+04,7.256712e+04]
+sequence   14/  19   B1=PHE   K*(log10): 0.721339  in [0.334015 , 0.934502] (log10)   protein: [0.000000 , 0.000000] (log10)                   , numConfs:    0, delta: 0.000   ligand: [3.926238 , 4.313562] (log10)                   , numConfs:    3, delta: 0.590   complex: [4.647577 , 4.860740] (log10)                   , numConfs:    3, delta: 0.388
+Running until leaf is found...
+MARK* expanded:         9, queued:         0, scored/sec:80113, partial minimizations:    0, time:730.09 us, delta:1.00000000000 heapMem:1.0% of 4.0 GiB, 64.0 MiB alloc, extMem:0 B
+Found a leaf!
+Current overall error bound: 0.9055596920, spread of [7.250141e+03, 7.676957e+04]
+Z Comparison: 6.368767e+04, 7.666114e+02
+Processing 8 internal nodes...
+Loop complete. Bounds are now [1.329921e+04,3.745788e+04]
+Running until leaf is found...
+MARK* expanded:         9, queued:         0, scored/sec:53746, partial minimizations:    0, time:852.49 us, delta:1.00000000000 heapMem:1.0% of 4.0 GiB, 64.0 MiB alloc, extMem:0 B
+Found a leaf!
+Current overall error bound: 0.8070283557, spread of [5.748713e+03, 2.979045e+04]
+Z Comparison: 1.766135e+04, 8.170888e+02
+Processing 8 internal nodes...
+Loop complete. Bounds are now [8.190439e+03,1.941317e+04]
+sequence   15/  19   B1=SER   K*(log10): -0.210519 in [-0.660236, 0.164271] (log10)   protein: [0.000000 , 0.000000] (log10)                   , numConfs:    0, delta: 0.000   ligand: [4.123826 , 4.573543] (log10)                   , numConfs:    0, delta: 0.645   complex: [3.913307 , 4.288097] (log10)                   , numConfs:    0, delta: 0.578
+Running until leaf is found...
+MARK* expanded:         9, queued:         0, scored/sec:87062, partial minimizations:    0, time:663.63 us, delta:1.00000000000 heapMem:1.0% of 4.0 GiB, 64.0 MiB alloc, extMem:0 B
+Found a leaf!
+Current overall error bound: 0.9706352146, spread of [1.638437e+03, 5.579600e+04]
+Z Comparison: 4.833472e+04, 9.769323e+02
+Processing 8 internal nodes...
+Loop complete. Bounds are now [3.581203e+03,2.352482e+04]
+Current overall error bound: 0.8477691736, spread of [3.581203e+03, 2.352482e+04]
+Z Comparison: 0.000000e+00, 1.528782e+03
+Processing 1 leaf nodes...
+[165   7    ]conf:   1, score:   -4.401245, lower:   -4.401245, corrected:   -4.401245 energy:   -4.200108, bounds:[3.581203e+03, 2.352482e+04], delta:    0.847769, time:  23.00 ms
+Processed 1 leaves in 0.016985956 seconds.
+Loop complete. Bounds are now [4.629263e+03,2.304410e+04]
+Current overall error bound: 0.7991128460, spread of [4.629263e+03, 2.304410e+04]
+Z Comparison: 0.000000e+00, 2.885076e+03
+Processing 2 leaf nodes...
+[151   7    ]conf:   2, score:   -4.427932, lower:   -4.427932, corrected:   -4.427932 energy:   -4.182080, bounds:[4.629263e+03, 2.304410e+04], delta:    0.799113, time:  36.72 ms
+[163   7    ]conf:   3, score:   -4.344989, lower:   -4.344989, corrected:   -4.344989 energy:   -4.155851, bounds:[4.629263e+03, 2.304410e+04], delta:    0.799113, time:  37.23 ms
+Processed 2 leaves in 0.013870364 seconds.
+Loop complete. Bounds are now [6.505958e+03,2.203572e+04]
+Current overall error bound: 0.7047539533, spread of [6.505958e+03, 2.203572e+04]
+Z Comparison: 0.000000e+00, 2.744545e+03
+Processing 3 leaf nodes...
+[165   8    ]conf:   4, score:   -4.165972, lower:   -4.165972, corrected:   -4.165972 energy:   -4.122867, bounds:[6.505958e+03, 2.203572e+04], delta:    0.704754, time:  53.03 ms
+[151   8    ]conf:   5, score:   -4.239970, lower:   -4.239970, corrected:   -4.239970 energy:   -4.108625, bounds:[6.505958e+03, 2.203572e+04], delta:    0.704754, time:  57.60 ms
+[163   8    ]conf:   6, score:   -4.106525, lower:   -4.106525, corrected:   -4.106525 energy:   -4.070831, bounds:[6.505958e+03, 2.203572e+04], delta:    0.704754, time:  59.17 ms
+Processed 3 leaves in 0.021708686 seconds.
+Loop complete. Bounds are now [8.859340e+03,2.164455e+04]
+Running until leaf is found...
+MARK* expanded:         9, queued:         0, scored/sec:124129, partial minimizations:    0, time:566.75 us, delta:1.00000000000 heapMem:1.0% of 4.0 GiB, 64.0 MiB alloc, extMem:0 B
+Found a leaf!
+Current overall error bound: 0.9496014567, spread of [2.183704e+03, 4.332870e+04]
+Z Comparison: 3.192652e+04, 2.313690e+03
+Processing 8 internal nodes...
+Loop complete. Bounds are now [3.164999e+03,1.874412e+04]
+Current overall error bound: 0.8311471079, spread of [3.164999e+03, 1.874412e+04]
+Z Comparison: 0.000000e+00, 2.313690e+03
+Processing 1 leaf nodes...
+[165   8    ]conf:   1, score:   -4.685840, lower:   -4.685840, corrected:   -4.685840 energy:   -4.665120, bounds:[3.164999e+03, 1.874412e+04], delta:    0.831147, time: 176.53 ms
+Processed 1 leaves in 0.16974907 seconds.
+Loop complete. Bounds are now [5.385960e+03,1.865139e+04]
+Current overall error bound: 0.7112301450, spread of [5.385960e+03, 1.865139e+04]
+Z Comparison: 0.000000e+00, 3.196177e+03
+Processing 2 leaf nodes...
+[163   8    ]conf:   2, score:   -4.574304, lower:   -4.574304, corrected:   -4.574304 energy:   -4.547292, bounds:[5.385960e+03, 1.865139e+04], delta:    0.711230, time: 258.32 ms
+[162   8    ]conf:   3, score:   -4.379359, lower:   -4.379359, corrected:   -4.379359 energy:   -4.362971, bounds:[5.385960e+03, 1.865139e+04], delta:    0.711230, time: 371.78 ms
+Processed 2 leaves in 0.194927892 seconds.
+Loop complete. Bounds are now [8.438601e+03,1.850786e+04]
+sequence   16/  19   B1=THR   K*(log10): -0.021131 in [-0.409078, 0.319955] (log10)   protein: [0.000000 , 0.000000] (log10)                   , numConfs:    0, delta: 0.000   ligand: [3.947401 , 4.335349] (log10)                   , numConfs:    6, delta: 0.591   complex: [3.926270 , 4.267356] (log10)                   , numConfs:    3, delta: 0.544
+Running until leaf is found...
+MARK* expanded:         9, queued:         0, scored/sec:193435, partial minimizations:    0, time:466.17 us, delta:1.00000000000 heapMem:1.0% of 4.0 GiB, 64.0 MiB alloc, extMem:0 B
+Found a leaf!
+Current overall error bound: 0.9925166331, spread of [2.662095e+03, 3.557349e+05]
+Z Comparison: 3.252394e+05, 2.345651e+04
+Processing 8 internal nodes...
+Loop complete. Bounds are now [5.858311e+03,9.222784e+04]
+Current overall error bound: 0.9364800173, spread of [5.858311e+03, 9.222784e+04]
+Z Comparison: 0.000000e+00, 2.950331e+04
+Processing 1 leaf nodes...
+[168   7    ]conf:   1, score:   -6.103825, lower:   -6.103825, corrected:   -6.103825 energy:   -5.408886, bounds:[5.858311e+03, 9.222784e+04], delta:    0.936480, time:  21.58 ms
+Processed 1 leaves in 0.019229792 seconds.
+Loop complete. Bounds are now [1.499864e+04,7.186486e+04]
+Current overall error bound: 0.7912937580, spread of [1.499864e+04, 7.186486e+04]
+Z Comparison: 0.000000e+00, 3.318521e+04
+Processing 2 leaf nodes...
+[168   6    ]conf:   2, score:   -5.445883, lower:   -5.445883, corrected:   -5.445883 energy:   -4.832103, bounds:[1.499864e+04, 7.186486e+04], delta:    0.791294, time:  36.15 ms
+[168   8    ]conf:   3, score:   -5.967806, lower:   -5.967806, corrected:   -5.967806 energy:   -5.401842, bounds:[1.499864e+04, 7.186486e+04], delta:    0.791294, time:  37.47 ms
+Processed 2 leaves in 0.015649104 seconds.
+Loop complete. Bounds are now [2.748712e+04,5.116811e+04]
+Running until leaf is found...
+MARK* expanded:         7, queued:         0, scored/sec:74420, partial minimizations:    0, time:336.97 us, delta:1.00000000000 heapMem:1.0% of 4.0 GiB, 60.0 MiB alloc, extMem:0 B
+Found a leaf!
+Current overall error bound: 1.0000000000, spread of [0.000000e-64, 8.990403e+05]
+Z Comparison: 8.990403e+05, 0.000000e-64
+Processing 6 internal nodes...
+Loop complete. Bounds are now [1.203038e+04,1.690530e+05]
+Current overall error bound: 0.9288366609, spread of [1.203038e+04, 1.690530e+05]
+Z Comparison: 0.000000e+00, 9.161641e+04
+Processing 1 leaf nodes...
+[170   8    ]conf:   1, score:   -6.826700, lower:   -6.826700, corrected:   -6.826700 energy:   -6.507327, bounds:[1.203038e+04, 1.690530e+05], delta:    0.928837, time:  91.81 ms
+Processed 1 leaves in 0.089717117 seconds.
+Loop complete. Bounds are now [6.208075e+04,1.274870e+05]
+sequence   17/  19   B1=TRP   K*(log10): 0.353828  in [0.083958 , 0.666337] (log10)   protein: [0.000000 , 0.000000] (log10)                   , numConfs:    0, delta: 0.000   ligand: [4.439129 , 4.708999] (log10)                   , numConfs:    3, delta: 0.463   complex: [4.792957 , 5.105466] (log10)                   , numConfs:    1, delta: 0.513
+Running until leaf is found...
+MARK* expanded:         9, queued:         0, scored/sec:207567, partial minimizations:    0, time:511.08 us, delta:1.00000000000 heapMem:1.0% of 4.0 GiB, 60.0 MiB alloc, extMem:0 B
+Found a leaf!
+Current overall error bound: 0.9995537878, spread of [8.353154e+02, 1.872014e+06]
+Z Comparison: 1.755546e+06, 9.685190e+04
+Processing 8 internal nodes...
+Loop complete. Bounds are now [1.818574e+03,3.799039e+05]
+Current overall error bound: 0.9952130692, spread of [1.818574e+03, 3.799039e+05]
+Z Comparison: 0.000000e+00, 1.393062e+05
+Processing 1 leaf nodes...
+[177   7    ]conf:   1, score:   -7.024380, lower:   -7.024380, corrected:   -7.024380 energy:   -5.083136, bounds:[1.818574e+03, 3.799039e+05], delta:    0.995213, time:  36.14 ms
+Processed 1 leaves in 0.033162514 seconds.
+Loop complete. Bounds are now [7.086633e+03,2.458658e+05]
+Current overall error bound: 0.9711768209, spread of [7.086633e+03, 2.458658e+05]
+Z Comparison: 0.000000e+00, 1.367576e+05
+Processing 2 leaf nodes...
+[177   8    ]conf:   2, score:   -6.808844, lower:   -6.808844, corrected:   -6.808844 energy:   -5.006341, bounds:[7.086633e+03, 2.458658e+05], delta:    0.971177, time:  54.18 ms
+[177   6    ]conf:   3, score:   -6.282995, lower:   -6.282995, corrected:   -6.282995 energy:   -4.441072, bounds:[7.086633e+03, 2.458658e+05], delta:    0.971177, time:  59.91 ms
+Processed 2 leaves in 0.023452253 seconds.
+Loop complete. Bounds are now [1.349484e+04,1.155163e+05]
+Current overall error bound: 0.8831780856, spread of [1.349484e+04, 1.155163e+05]
+Z Comparison: 0.000000e+00, 7.168848e+04
+Processing 3 leaf nodes...
+[177   0    ]conf:   4, score:   -6.067982, lower:   -6.067982, corrected:   -6.067982 energy:   -4.249546, bounds:[1.349484e+04, 1.155163e+05], delta:    0.883178, time:  85.15 ms
+[178   8    ]conf:   5, score:   -5.799932, lower:   -5.799932, corrected:   -5.799932 energy:   -4.519516, bounds:[1.349484e+04, 1.155163e+05], delta:    0.883178, time:  91.21 ms
+[178   7    ]conf:   6, score:   -6.034501, lower:   -6.034501, corrected:   -6.034501 energy:   -4.618212, bounds:[1.349484e+04, 1.155163e+05], delta:    0.883178, time:  91.92 ms
+Processed 3 leaves in 0.033840198 seconds.
+Loop complete. Bounds are now [1.923207e+04,4.956508e+04]
+Running until leaf is found...
+MARK* expanded:         8, queued:         0, scored/sec:121378, partial minimizations:    0, time:444.79 us, delta:1.00000000000 heapMem:1.0% of 4.0 GiB, 64.0 MiB alloc, extMem:0 B
+Found a leaf!
+Current overall error bound: 1.0000000000, spread of [3.269639e-29, 1.027330e+07]
+Z Comparison: 1.027330e+07, 7.592086e-06
+Processing 7 internal nodes...
+Loop complete. Bounds are now [1.890899e+02,1.947001e+06]
+Current overall error bound: 0.9999028814, spread of [1.890899e+02, 1.947001e+06]
+Z Comparison: 0.000000e+00, 9.101141e+05
+Processing 1 leaf nodes...
+[177   8    ]conf:   1, score:   -8.137498, lower:   -8.137498, corrected:   -8.137498 energy:   -6.275958, bounds:[1.890899e+02, 1.947001e+06], delta:    0.999903, time: 226.78 ms
+Processed 1 leaves in 0.224518498 seconds.
+Loop complete. Bounds are now [3.952974e+04,1.076227e+06]
+Current overall error bound: 0.9632700859, spread of [3.952974e+04, 1.076227e+06]
+Z Comparison: 0.000000e+00, 5.495417e+05
+Processing 2 leaf nodes...
+[177   0    ]conf:   2, score:   -7.361353, lower:   -7.361353, corrected:   -7.361353 energy:   -5.455037, bounds:[3.952974e+04, 1.076227e+06], delta:    0.963270, time: 419.56 ms
+[177   6    ]conf:   3, score:   -7.486514, lower:   -7.486514, corrected:   -7.486514 energy:   -5.568786, bounds:[3.952974e+04, 1.076227e+06], delta:    0.963270, time: 551.77 ms
+Processed 2 leaves in 0.325097541 seconds.
+Loop complete. Bounds are now [6.133132e+04,5.484872e+05]
+Current overall error bound: 0.8881809466, spread of [6.133132e+04, 5.484872e+05]
+Z Comparison: 0.000000e+00, 3.577009e+05
+Processing 3 leaf nodes...
+[178   8    ]conf:   4, score:   -7.315010, lower:   -7.315010, corrected:   -7.315010 energy:   -5.838459, bounds:[6.133132e+04, 5.484872e+05], delta:    0.888181, time: 927.10 ms
+[178   6    ]conf:   5, score:   -6.658922, lower:   -6.658922, corrected:   -6.658922 energy:   -5.139402, bounds:[6.133132e+04, 5.484872e+05], delta:    0.888181, time: 938.52 ms
+[178   0    ]conf:   6, score:   -6.474213, lower:   -6.474213, corrected:   -6.474213 energy:   -4.969889, bounds:[6.133132e+04, 5.484872e+05], delta:    0.888181, time: 978.93 ms
+Processed 3 leaves in 0.4263208 seconds.
+Loop complete. Bounds are now [9.031336e+04,2.197684e+05]
+sequence   18/  19   B1=TYR   K*(log10): 0.671726  in [0.260576 , 1.057939] (log10)   protein: [0.000000 , 0.000000] (log10)                   , numConfs:    0, delta: 0.000   ligand: [4.284026 , 4.695176] (log10)                   , numConfs:    6, delta: 0.612   complex: [4.955752 , 5.341965] (log10)                   , numConfs:    6, delta: 0.589
+Running until leaf is found...
+MARK* expanded:         9, queued:         0, scored/sec:117423, partial minimizations:    0, time:539.07 us, delta:1.00000000000 heapMem:1.0% of 4.0 GiB, 66.0 MiB alloc, extMem:0 B
+Found a leaf!
+Current overall error bound: 0.9554424694, spread of [3.715887e+02, 8.339526e+03]
+Z Comparison: 7.056458e+03, 7.867831e+02
+Processing 8 internal nodes...
+Loop complete. Bounds are now [7.908668e+02,3.893472e+03]
+Current overall error bound: 0.7968736319, spread of [7.908668e+02, 3.893472e+03]
+Z Comparison: 0.000000e+00, 1.244127e+03
+Processing 1 leaf nodes...
+[184   7    ]conf:   1, score:   -4.339698, lower:   -4.339698, corrected:   -4.339698 energy:   -4.174181, bounds:[7.908668e+02, 3.893472e+03], delta:    0.796874, time:  12.91 ms
+Processed 1 leaves in 0.010925329 seconds.
+Loop complete. Bounds are now [1.668098e+03,3.526577e+03]
+Running until leaf is found...
+MARK* expanded:         9, queued:         0, scored/sec:154793, partial minimizations:    0, time:442.17 us, delta:1.00000000000 heapMem:1.0% of 4.0 GiB, 64.0 MiB alloc, extMem:0 B
+Found a leaf!
+Current overall error bound: 0.9004716751, spread of [2.914140e+03, 2.927950e+04]
+Z Comparison: 1.914479e+04, 7.219976e+03
+Processing 8 internal nodes...
+Loop complete. Bounds are now [4.219625e+03,1.651669e+04]
+Current overall error bound: 0.7445235589, spread of [4.219625e+03, 1.651669e+04]
+Z Comparison: 0.000000e+00, 7.219976e+03
+Processing 1 leaf nodes...
+[184   8    ]conf:   1, score:   -5.470095, lower:   -5.470095, corrected:   -5.470095 energy:   -5.409313, bounds:[4.219625e+03, 1.651669e+04], delta:    0.744524, time:  99.40 ms
+Processed 1 leaves in 0.097607186 seconds.
+Loop complete. Bounds are now [1.045241e+04,1.552950e+04]
+sequence   19/  19   B1=VAL   K*(log10): 0.796995  in [0.471863 , 0.968936] (log10)   protein: [0.000000 , 0.000000] (log10)                   , numConfs:    0, delta: 0.000   ligand: [3.222222 , 3.547353] (log10)                   , numConfs:    1, delta: 0.527   complex: [4.019216 , 4.191157] (log10)                   , numConfs:    1, delta: 0.327
+OSPREY returned 19 scored sequences.
+WARNING: MARK* score validation failed; exported structures are not evidence of reliable binding scores:
+  B1=ASP complex: effective epsilon 0.996641 exceeds requested 0.68 or is non-finite
+Enumerating 81 complex conformations for B1=hid...
+Wrote 10 structures for B1=hid to HID.pdb.
+Enumerating 9 complex conformations for B1=ALA...
+WARNING: B1=ALA has only 9 finite conformations; requested 10.
+Wrote 9 structures for B1=ALA to ALA.pdb.
+Enumerating 306 complex conformations for B1=ARG...
+  B1=ARG: evaluated 100/306 conformations.
+  B1=ARG: evaluated 200/306 conformations.
+  B1=ARG: evaluated 300/306 conformations.
+Wrote 10 structures for B1=ARG to ARG.pdb.
+Enumerating 63 complex conformations for B1=ASN...
+Wrote 10 structures for B1=ASN to ASN.pdb.
+Enumerating 45 complex conformations for B1=ASP...
+Wrote 10 structures for B1=ASP to ASP.pdb.
+Enumerating 27 complex conformations for B1=CYS...
+Wrote 10 structures for B1=CYS to CYS.pdb.
+Enumerating 81 complex conformations for B1=GLN...
+Wrote 10 structures for B1=GLN to GLN.pdb.
+Enumerating 72 complex conformations for B1=GLU...
+Wrote 10 structures for B1=GLU to GLU.pdb.
+Enumerating 9 complex conformations for B1=GLY...
+WARNING: B1=GLY has only 9 finite conformations; requested 10.
+Wrote 9 structures for B1=GLY to GLY.pdb.
+Enumerating 63 complex conformations for B1=ILE...
+Wrote 10 structures for B1=ILE to ILE.pdb.
+Enumerating 45 complex conformations for B1=LEU...
+Wrote 10 structures for B1=LEU to LEU.pdb.
+Enumerating 243 complex conformations for B1=LYS...
+  B1=LYS: evaluated 100/243 conformations.
+  B1=LYS: evaluated 200/243 conformations.
+Wrote 10 structures for B1=LYS to LYS.pdb.
+Enumerating 117 complex conformations for B1=MET...
+  B1=MET: evaluated 100/117 conformations.
+Wrote 10 structures for B1=MET to MET.pdb.
+Enumerating 36 complex conformations for B1=PHE...
+Wrote 10 structures for B1=PHE to PHE.pdb.
+Enumerating 162 complex conformations for B1=SER...
+  B1=SER: evaluated 100/162 conformations.
+Wrote 10 structures for B1=SER to SER.pdb.
+Enumerating 162 complex conformations for B1=THR...
+  B1=THR: evaluated 100/162 conformations.
+Wrote 10 structures for B1=THR to THR.pdb.
+Enumerating 63 complex conformations for B1=TRP...
+Wrote 10 structures for B1=TRP to TRP.pdb.
+Enumerating 72 complex conformations for B1=TYR...
+Wrote 10 structures for B1=TYR to TYR.pdb.
+Enumerating 27 complex conformations for B1=VAL...
+Wrote 10 structures for B1=VAL to VAL.pdb.
+Traceback (most recent call last):
+  File "/home/users/etm33/src/OSPREY3/MARKStar-work/markstar_scan.py", line 492, in <module>
+    main()
+  File "/home/users/etm33/src/OSPREY3/MARKStar-work/markstar_scan.py", line 482, in main
+    run_osprey(args, residues, target, neighbors, manifest)
+  File "/home/users/etm33/src/OSPREY3/MARKStar-work/markstar_scan.py", line 444, in run_osprey
+    raise RuntimeError("Incomplete or insufficiently precise results:\n  " + "\n  ".join(problems))
+RuntimeError: Incomplete or insufficiently precise results:
+  B1=ASP complex: effective epsilon 0.996641 exceeds requested 0.68 or is non-finite
